@@ -14,7 +14,7 @@
 }
 
 body{
-    /* background-color: var(--zoom-darker); */
+    background-color: var(--zoom-darker);
 }
 
 /* #endregion Common */
@@ -53,7 +53,24 @@ body{
 /* Site-header */
 
 /* Site-main */
-
-
+.top-badge{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+.speaker_view{
+    margin: 0.3rem;
+    background-color: lightgray;
+    padding:  0.3rem 0.3rem;
+    margin-right: 0.3rem;
+    border-radius: 0.3rem;   
+}
+.arrows{
+    margin: 0.3rem;
+    background-color: lightgray;
+    padding:  0.3rem 0.3rem;
+    margin-right: 0.3rem;
+    border-radius: 0.3rem; 
+}
    
 /* Site-footer */
