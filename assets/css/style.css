@@ -95,7 +95,16 @@ body{
     align-items: center;
 }
 .center-nav{
-    
+    display: flex;
+    align-items: center;
+}
+.bg-green{
+    color: var(--zoom-share);
+}
+.fa-angle-up {
+    align-self: center;
+    font-size: 0.6rem;
+    padding: 0.3rem;
 }
 .right-nav{
     
