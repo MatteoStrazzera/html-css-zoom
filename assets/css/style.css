@@ -13,6 +13,10 @@
     --zoom-close: rgba(231, 25, 40, 1);
 }
 
+body{
+    /* background-color: var(--zoom-darker); */
+}
+
 /* #endregion Common */
 
 /* #region Utilities */
@@ -30,6 +34,18 @@
 .column-7{
     width: calc((100%/14) *2);
     padding: 0.3rem 0.15rem;
+}
+.img-card{
+    position: relative;
+}
+.user-name{
+    background-color: lightgray;
+    color: white;
+    font-size: 0.5rem;
+    padding: 0.2rem;
+    position: absolute;
+    bottom: 0.2rem;
+    left: 0;
 }
 
 /* #endregion Utilities */
