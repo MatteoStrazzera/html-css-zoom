@@ -1,0 +1,26 @@
+/* #region Common */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --zoom-dark: rgba(34, 34, 34, 1);
+    --zoom-darker: rgba(0, 0, 0, 1);
+    --zoom-share:  rgba(75, 200, 0, 1);
+    --zoom-close: rgba(231, 25, 40, 1);
+}
+
+/* #endregion Common */
+
+/* #region Utilities */
+
+/* #endregion Utilities */
+
+/* Site-header */
+
+/* Site-main */
+
+/* Site-footer */
