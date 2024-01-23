@@ -107,5 +107,11 @@ body{
     padding: 0.3rem;
 }
 .right-nav{
-    
+    background-color: lightgray;
+    padding: 1rem 0 1rem 1rem;
+}
+.end-meeting{
+    text-decoration: none;
+    color: var(--zoom-close);
+    height: 100%;
 }
