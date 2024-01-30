@@ -20,9 +20,11 @@ body{
 /* #endregion Common */
 
 /* #region Utilities */
+.wrapper{
+    height: 100vh;
+}
 .container {
     width: 90%;
-    height: 90vh;
     margin: auto;
     margin-top: 2.5rem;
 }
@@ -55,28 +57,26 @@ body{
 /* #endregion Utilities */
 
 /* Site-header */
-
-/* Site-main */
 .top-badge{
     color: white;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .speaker_view{
     margin: 0.3rem;
     background-color: lightgray;
-    padding:  0.3rem 0.3rem;
-    margin-right: 0.3rem;
-    border-radius: 0.3rem;   
-    font-size: 0.5rem;
+    padding:  0.3rem;
+    border-radius: 0.3rem;
 }
 .arrows{
     margin: 0.3rem;
     background-color: lightgray;
-    padding:  0.1rem;
-    margin-right: 0.3rem;
+    padding:  0.3rem;
     border-radius: 0.3rem; 
 }
+/* Site-main */
+
    
 /* Site-footer */
 #site-footer{
